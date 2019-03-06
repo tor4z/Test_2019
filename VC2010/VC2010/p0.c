@@ -8,34 +8,22 @@ struct table {
 	int point;
 };
 
-static void sort(struct table *table, int n, int inc)
+int cmp(int p1, int p2, int inc)
 {
-	int i, j, k;
-	struct table tmp;
-
-	for(i = 1; i < n; i++)
+	if(inc == 1)
 	{
-		j = i - 1;
-		while(1)
-		{
-			if((inc == 1 && table[j + 1].point < table[j].point)
-			   || (inc == 0 && table[j + 1].point > table[j].point)
-			   || j == 0)
-				break;
-		
-			tmp = table[j];
-			table[j] = table[j + 1];
-			table[j + 1] = tmp;
-			j--;
-		}
+		if(p1 > p2)
+			return 1;
+		else
+			return 0;
 	}
-}
-
-static void print(struct table *table, int n)
-{
-	int i;
-	for(i = 0; i < n; i++)
-		printf("%s %d\n", table[i].name, table[i].point);
+	else
+	{
+		if(p1 < p2)
+			return 1;
+		else
+			return 0;
+	}
 }
 
 
@@ -43,20 +31,38 @@ int p0()
 {
 	int n;
 	int inc;
-	int i;
+	int i, j, flag;
 	struct table *table;
+	struct table tmp;
 
-	scanf("%d", &n);
-	scanf("%d", &inc);
+	while(scanf("%d %d", &n, &inc) == 2)
+	{
+		table = (struct table*)malloc(n * sizeof(struct table));
 
-	table = (struct table*)malloc(n * sizeof(struct table));
+		for(i = 0; i < n; i++)
+			scanf("%s %d", (table[i].name), &(table[i].point));
 
-	for(i = 0; i < n; i++)
-		scanf("%s %d", &(table[i].name), &(table[i].point));
+		for(i = 0; i < n; i++)
+		{
+			flag = 0;
+			for(j = 0; j < n - 1; j++)
+			{
+				if(cmp(table[j].point, table[j+1].point, inc))
+				{
+					tmp = table[j];
+					table[j] = table[j+1];
+					table[j+1] = tmp;
+					flag = 1;
+				}
+			}
+			if(!flag) break;
+		}
 
-	sort(table, n, inc);
-	print(table, n);
-	
+		for(i = 0; i < n; i++)
+		{
+			printf("%s %d\n", table[i].name, table[i].point);
+		}
+	}
 
 	return 0;
 }
