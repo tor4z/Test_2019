@@ -57,3 +57,4 @@ Release/
 ipch/
 *.opensdf
 *.suo
+*.sdf
