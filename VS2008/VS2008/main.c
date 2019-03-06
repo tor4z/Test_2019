@@ -4,7 +4,9 @@
 
 int main()
 {
-	printf("Hello world!\n");
+	p2();
+
+	printf("Done!\n");
 	while(1) getchar();
 	return 0;
 }
