@@ -55,6 +55,7 @@ dkms.conf
 # Visual C++
 Release/
 ipch/
+Debug/
 *.opensdf
 *.suo
 *.sdf

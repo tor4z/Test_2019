@@ -1,9 +1,10 @@
-#include <stdio.h>
+#include "comm.h"
 
 
 int main()
 {
-	printf("Hello world!!\n");
-	getchar();
-	return 0;
+	int result;
+	result = p0();
+	pause();
+	return result;
 }
