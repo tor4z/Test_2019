@@ -6,7 +6,7 @@
 typedef char addr[ADD_LEN];
 
 
-int solve(addr server[5000], int m, addr proxy[1000], int n)
+static int solve(addr server[5000], int m, addr proxy[1000], int n)
 {
 	int i, j, max;
 	max = -1;

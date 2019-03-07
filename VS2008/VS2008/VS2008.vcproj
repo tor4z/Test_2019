@@ -183,6 +183,34 @@
 				>
 			</File>
 			<File
+				RelativePath=".\p3.c"
+				>
+			</File>
+			<File
+				RelativePath=".\p4.c"
+				>
+			</File>
+			<File
+				RelativePath=".\p5.c"
+				>
+			</File>
+			<File
+				RelativePath=".\p6.c"
+				>
+			</File>
+			<File
+				RelativePath=".\p7.c"
+				>
+			</File>
+			<File
+				RelativePath=".\p8.c"
+				>
+			</File>
+			<File
+				RelativePath=".\p9.c"
+				>
+			</File>
+			<File
 				RelativePath=".\test.c"
 				>
 			</File>

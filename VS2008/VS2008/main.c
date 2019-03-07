@@ -4,7 +4,7 @@
 
 int main()
 {
-	p2();
+	p9();
 
 	printf("Done!\n");
 	while(1) getchar();
