@@ -61,3 +61,5 @@ Debug/
 *.sdf
 *.ncb
 *.user
+*.opendb
+*.db
