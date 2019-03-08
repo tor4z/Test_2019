@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-int solve(long n)
+static int solve(long n)
 {
 	long *result;
 	long i;

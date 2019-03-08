@@ -11,6 +11,6 @@ int p6();
 int p7();
 int p8();
 int p9();
-int p10();
+
 
 #endif // COMM_H_
