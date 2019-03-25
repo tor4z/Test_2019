@@ -18,59 +18,83 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p10.cpp">
+    <ClCompile Include="p54.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p11.cpp">
+    <ClCompile Include="p55.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p12.cpp">
+    <ClCompile Include="p56.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p13.cpp">
+    <ClCompile Include="p57.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p14.cpp">
+    <ClCompile Include="p58.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p15.cpp">
+    <ClCompile Include="p59.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p16.cpp">
+    <ClCompile Include="p60.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p17.cpp">
+    <ClCompile Include="p61.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p18.cpp">
+    <ClCompile Include="p62.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p19.cpp">
+    <ClCompile Include="p63.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p20.cpp">
+    <ClCompile Include="p64.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p21.cpp">
+    <ClCompile Include="p65.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p22.cpp">
+    <ClCompile Include="p66.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p23.cpp">
+    <ClCompile Include="p67.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p24.cpp">
+    <ClCompile Include="p68.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p25.cpp">
+    <ClCompile Include="p69.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="P26.cpp">
+    <ClCompile Include="p70.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p27.cpp">
+    <ClCompile Include="p71.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p72.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p73.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p74.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p75.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p76.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p77.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p78.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p79.cpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

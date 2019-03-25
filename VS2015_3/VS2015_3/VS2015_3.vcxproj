@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3A7E80E0-AA10-42F0-84C0-B461C68645DC}</ProjectGuid>
-    <RootNamespace>VS2015</RootNamespace>
+    <ProjectGuid>{F3FC7110-440C-4DBB-9919-F7E5608AE8FF}</ProjectGuid>
+    <RootNamespace>VS2015_3</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -111,24 +111,32 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="p10.cpp" />
-    <ClCompile Include="p11.cpp" />
-    <ClCompile Include="p12.cpp" />
-    <ClCompile Include="p13.cpp" />
-    <ClCompile Include="p14.cpp" />
-    <ClCompile Include="p15.cpp" />
-    <ClCompile Include="p16.cpp" />
-    <ClCompile Include="p17.cpp" />
-    <ClCompile Include="p18.cpp" />
-    <ClCompile Include="p19.cpp" />
-    <ClCompile Include="p20.cpp" />
-    <ClCompile Include="p21.cpp" />
-    <ClCompile Include="p22.cpp" />
-    <ClCompile Include="p23.cpp" />
-    <ClCompile Include="p24.cpp" />
-    <ClCompile Include="p25.cpp" />
-    <ClCompile Include="P26.cpp" />
-    <ClCompile Include="p27.cpp" />
+    <ClCompile Include="p54.cpp" />
+    <ClCompile Include="p55.cpp" />
+    <ClCompile Include="p56.cpp" />
+    <ClCompile Include="p57.cpp" />
+    <ClCompile Include="p58.cpp" />
+    <ClCompile Include="p59.cpp" />
+    <ClCompile Include="p60.cpp" />
+    <ClCompile Include="p61.cpp" />
+    <ClCompile Include="p62.cpp" />
+    <ClCompile Include="p63.cpp" />
+    <ClCompile Include="p64.cpp" />
+    <ClCompile Include="p65.cpp" />
+    <ClCompile Include="p66.cpp" />
+    <ClCompile Include="p67.cpp" />
+    <ClCompile Include="p68.cpp" />
+    <ClCompile Include="p69.cpp" />
+    <ClCompile Include="p70.cpp" />
+    <ClCompile Include="p71.cpp" />
+    <ClCompile Include="p72.cpp" />
+    <ClCompile Include="p73.cpp" />
+    <ClCompile Include="p74.cpp" />
+    <ClCompile Include="p75.cpp" />
+    <ClCompile Include="p76.cpp" />
+    <ClCompile Include="p77.cpp" />
+    <ClCompile Include="p78.cpp" />
+    <ClCompile Include="p79.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="comm.h" />

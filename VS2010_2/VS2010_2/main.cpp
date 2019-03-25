@@ -5,8 +5,9 @@ using namespace std;
 
 int main()
 {
-	p27();
+	p85();
 
 	cout << "Done!" << endl;
-	while (true);
+	while(true);
+	return 0;
 }

@@ -7,7 +7,7 @@
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
@@ -18,58 +18,22 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p10.cpp">
+    <ClCompile Include="p80.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p11.cpp">
+    <ClCompile Include="p81.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p12.cpp">
+    <ClCompile Include="p82.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p13.cpp">
+    <ClCompile Include="p83.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p14.cpp">
+    <ClCompile Include="p84.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p15.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p16.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p17.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p18.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p19.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p20.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p21.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p22.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p23.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p24.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p25.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="P26.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="p27.cpp">
+    <ClCompile Include="p85.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

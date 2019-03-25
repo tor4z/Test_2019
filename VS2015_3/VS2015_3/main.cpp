@@ -3,10 +3,15 @@
 
 using namespace std;
 
+/*
+* P55
+* P73
+*/
+
 int main()
 {
-	p27();
-
+	p79();
 	cout << "Done!" << endl;
 	while (true);
+	return 0;
 }

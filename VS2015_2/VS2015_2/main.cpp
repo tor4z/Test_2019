@@ -3,9 +3,13 @@
 
 using namespace std;
 
+/*
+* P50 *********
+*/
+
 int main()
 {
-	p27();
+	p53();
 
 	cout << "Done!" << endl;
 	while (true);
