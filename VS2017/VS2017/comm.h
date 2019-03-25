@@ -16,3 +16,7 @@ int p97();
 int p98();
 int p99();
 int p100();
+int p101();
+int p102();
+int p103();
+int p104();

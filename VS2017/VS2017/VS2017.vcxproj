@@ -120,6 +120,10 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="p100.cpp" />
+    <ClCompile Include="p101.cpp" />
+    <ClCompile Include="p102.cpp" />
+    <ClCompile Include="p103.cpp" />
+    <ClCompile Include="p104.cpp" />
     <ClCompile Include="p86.cpp" />
     <ClCompile Include="p87.cpp" />
     <ClCompile Include="p88.cpp" />
